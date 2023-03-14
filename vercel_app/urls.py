@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('django-dn7dnt8sk-emporteme.vercel.app/', include('example.urls')),
+    path('', include('example.urls')),
 ]
